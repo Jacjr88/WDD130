@@ -191,29 +191,20 @@ main section img {
     margin: 80px 50px;
 }
 
+.msg-left, .msg-rigth p {
+    font-size:1rem;
+    margin: 30px;
+}
+
 .locations-grid h2 {
     margin: 0px;
 }
 
-.locations-grid p {
-    font-size:1rem;
-    padding: 20px;
-
-}
-
-#msg-2{
+#msg-2, #glacier-2{
     grid-row: 2/3;
 }
 
-#glacier-2{
-    grid-row: 2/3;
-}
-
-#msg-4{
-    grid-row: 4/5;
-}
-
-#glacier-4{
+#msg-4, #glacier-4{
     grid-row: 4/5;
 }
 
@@ -228,8 +219,6 @@ main section img {
     line-height: 1rem;
     padding-bottom: 15px;
 }
-
-
 
 .footer {
     display: flex;
@@ -263,6 +252,10 @@ footer .social img {
     padding-top: 15px;
 }
 
+footer .social img:hover {
+    transition:  .5s;
+    transform: scale(1.1);
+}
 
 .home-title {
     margin-top: 10px;
@@ -363,6 +356,7 @@ footer .social img {
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(5, .1fr);
         background-color:  #333C3D;
+        
     }
 
     .location-left, .location-rigth{
