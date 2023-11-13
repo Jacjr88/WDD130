@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald&family=Rubik:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #2978A0;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 150px auto;
+    background-color:  #BCAB79;
+    font-family: "Oswald", Helvetica, sans-serif;
+    opacity: 80%;
+}
+
+.logo {
+    margin: 10px 0;
+    width: 80px;
+}
+
+#logo_link:hover {
+    background-color: #BCAB79;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color : white;
+    text-decoration: none;
+    padding: 35px;
+    align-self: center;
+}
+
+nav a:hover {
+    color : #005F73;
+    background-color: #C6E0FF;
+    transition: 1s;
+}
+
+.book, .join{
+    text-align: center;
+    color : white;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: #315659;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.book:hover, .join:hover{
+    transform: scale(1.2);
+    color : #005F73;
+    background-color:  #BCAB79;
+    
+}
+
+.card-img {
+    border: 10px solid #C6E0FF;
+    height: 300px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+
+.rivers-card, .mountain-card, .cascade-card  {
+    margin: 200px 0;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    margin-top: -100px; 
+}
+
+#hero-img {
+    width:100%;
+    opacity:30%;
+}
+
+#hero-box{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.banner-title{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 120px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(5,5fr);
+    grid-template-rows: 1fr;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    grid-gap: 20px;
+    margin: 0 50px;
+    
+}
+
+.banner-img{
+    grid-row: 1/2;
+    object-fit: contain;
+    align-items: center;
+    height: 370px;
+}
+
+.banner-img img {
+    margin-top: 30px;
+    object-fit: contain;
+    height: 28rem;
+    align-content: center;
+    border-radius: 10px;
+    opacity: 70%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.banner-img img:hover {
+    transition:  .5s;
+    transform: scale(1.05);
+    opacity: 100;
+}
+
+.banner-img h5 {
+    margin: 30px auto;
+}
+
+
+.button-box{
+    text-align: center;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 2fr);
+    background-color:  #333C3D;
+}
+
+main section{
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.location-left {
+    grid-column: 1/4;
+    height: 80%;
+    box-shadow: 5px 5px 10px black;
+    margin: 40px 50px;
+}
+
+.msg-rigth {
+    padding: 35px;
+    grid-column: 6/11;
+    background-color: #2978A0;
+    opacity: 80%;
+    height: 60%;
+    box-shadow: 5px 5px 10px black;
+    margin: 80px 50px;
+}
+
+.location-rigth {
+    grid-column: 4/10;
+    height: 80%;
+    box-shadow: 5px 5px 10px black;
+    margin: 40px 10px;
+}
+
+.msg-left {
+    padding: 35px;
+    grid-column: 1/6;
+    background-color: #2978A0;
+    opacity: 80%;
+    height: 60%;
+    box-shadow: 5px 5px 10px black;
+    margin: 80px 50px;
+}
+
+#msg-2{
+    grid-row: 2/3;
+}
+
+#glacier-2{
+    grid-row: 2/3;
+}
+
+#msg-4{
+    grid-row: 4/5;
+}
+
+#glacier-4{
+    grid-row: 4/5;
+}
+
+.msg h2, p{
+    background-color: #2978A0;
+    color: white;
+    font-family: Rubik, Helvetica, sans-serif;
+}
+
+.msg p{
+    font-size:.8rem;
+    line-height: 1.5rem;
+    padding-bottom: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    background-color:  #BCAB79;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p{
+    background-color:  #BCAB79;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}  
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color : #333C3D;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+.home-title {
+    margin-top: 10px;
+    color : white;
+    font-size: 2em;
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+
+#make-memories-phrase {
+    color : white;
+    font-size: 1.2rem;
+}
+
+.social img {
+    width: 50px;
+    margin: 0 10px;
+    display:inline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .mountain-card, .cascade-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
