@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald&family=Rubik:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #2978A0;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 150px auto;
+    background-color:  #BCAB79;
+    font-family: "Oswald", Helvetica, sans-serif;
+    opacity: 80%;
+}
+
+.logo {
+    margin: 10px 0;
+    width: 80px;
+}
+
+#logo_link:hover {
+    background-color: #BCAB79;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color : white;
+    text-decoration: none;
+    padding: 35px;
+    align-self: center;
+}
+
+nav a:hover {
+    color : #005F73;
+    background-color: #C6E0FF;
+    transition: 1s;
+}
+
+.container{
+    align-items:center;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    height: 63vh;
+    padding: 1.9em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: white;
+    font: 0.7em sans-serif;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 0.6em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    background-color: #C6E0FF;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding: 5px 15px; /* same size as the label elements */
+    position: relative;
+    left: 45%;
+    text-align: center;
+    color : white;
+    text-decoration: none;
+    background-color: #315659;
+    border-radius: 5px;
+    transition: .5s;
+  }
+
+.button:hover{
+    transform: scale(1.05);
+    color : #005F73;
+    background-color:  #BCAB79;
+    
+}
+
+.footer {
+    display: flex;
+    background-color:  #BCAB79;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p{
+    background-color:  #BCAB79;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}  
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color : #333C3D;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer .social img:hover {
+    transition:  .5s;
+    transform: scale(1.1);
+}
+
+.home-title {
+    margin-top: 10px;
+    color : white;
+    font-size: 2em;
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+
+#make-memories-phrase {
+    color : white;
+    font-size: 1.2rem;
+}
+
+.social img {
+    width: 50px;
+    margin: 0 10px;
+    display:inline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color:  #BCAB79;
+        font-family: "Oswald", Helvetica, sans-serif;
+        opacity: 80%;
+    }
+
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    
+    footer {
+        margin-top: 25px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
