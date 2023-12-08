@@ -35,7 +35,6 @@ nav a {
 
 nav a:hover {
     color : #43B187;
-    background-color: none;
     transition: 0.5s;
     box-shadow: 0px 0px 10px 0px #e8e8e8;
 }

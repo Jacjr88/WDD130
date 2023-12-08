@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2978A0;
+    background-color: #111;
     font-family: "Oswald", Helvetica, sans-serif;
     font-size: 22px;
     padding: 0;
@@ -20,24 +20,6 @@ header {
     background-color:  #216224;
     font-family: "Oswald", Helvetica, sans-serif;
     opacity: 80%;
-}
-
-.background{
-    width: 100vw;
-    z-index: -1;
-    position: relative;
-}
-
-.logo {
-    margin: 10px 0;
-    width: 80px;
-}
-
-#logo_link:hover {
-    background-color: #BCAB79;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
 }
 
 nav {
@@ -58,7 +40,6 @@ nav a {
 
 nav a:hover {
     color : #43B187;
-    background-color: none;
     transition: 0.5s;
     box-shadow: 0px 0px 10px 0px #e8e8e8;
 }
@@ -267,7 +248,7 @@ footer .social img:hover{
     nav a {
         display: block;
         padding: 15px;
-   
+    }
     footer {
         margin-top: 25px;
     }
