@@ -187,6 +187,7 @@ backface-visibility: hidden;
 .flip-card-back {
 color: white;
 transform: rotateY(180deg);
+background-color: #216224;
 }
 
 
